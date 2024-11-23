@@ -8,12 +8,12 @@ public class ClienteProducto {
 
     private final String nombre;
 
-    private final List<Producto> products;
+    private final List<Producto> productos;
 
 
     public ClienteProducto(String nombre, List<Producto> productos) {
         this.nombre = nombre;
-        this.products = productos;
+        this.productos = productos;
     }
 
     public String getNombre() {
